@@ -1,9 +1,33 @@
+html body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #eeefe9;
+}
+
+
+
 .intro-block{
     background: url(../img/purpalt.png)repeat;
     padding: 100px 15px 60px;
     color: #fff;
 }
 
+.carousel-caption{
+    z-index: 30px;
+}
+
+.carousel-inner > .item > img{
+    position: absolute;
+    top:50px;
+    left: 0;
+    min-width: 100%
+    height:auto;
+}
+.carousel-inner > .item{
+    height: 300px;
+}
 .text-muted{
     color: #e9e6df;
     font-weight: 100;
